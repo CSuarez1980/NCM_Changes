@@ -842,17 +842,14 @@
 
     Private Sub BGWG4P_RunWorkerCompleted(ByVal sender As Object, ByVal e As System.ComponentModel.RunWorkerCompletedEventArgs) Handles BGWG4P.RunWorkerCompleted
         BGWGBP.RunWorkerAsync()
-        The_End()
     End Sub
     Private Sub BGWGBP_RunWorkerCompleted(ByVal sender As Object, ByVal e As System.ComponentModel.RunWorkerCompletedEventArgs) Handles BGWGBP.RunWorkerCompleted
         The_End()
     End Sub
     Private Sub BGWL6P_RunWorkerCompleted(ByVal sender As Object, ByVal e As System.ComponentModel.RunWorkerCompletedEventArgs) Handles BGWL6P.RunWorkerCompleted
         BGWG4P.RunWorkerAsync()
-        The_End()
     End Sub
     Private Sub BGWL7P_RunWorkerCompleted(ByVal sender As Object, ByVal e As System.ComponentModel.RunWorkerCompletedEventArgs) Handles BGWL7P.RunWorkerCompleted
         BGWL6P.RunWorkerAsync()
-        The_End()
     End Sub
 End Class

@@ -67,7 +67,7 @@ Partial Class Form1
         Me.ClientSize = New System.Drawing.Size(392, 72)
         Me.Controls.Add(Me.ProgressBar1)
         Me.Name = "Form1"
-        Me.Text = "BR NCM Changes [07/26/2013]"
+        Me.Text = "BR NCM Changes [09/04/2013]"
         Me.ResumeLayout(False)
 
     End Sub
